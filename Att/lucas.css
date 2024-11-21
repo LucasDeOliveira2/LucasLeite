@@ -1,0 +1,56 @@
+*{
+    background-color:rgb(255, 255, 255);;
+}
+
+a{
+    text-decoration: none;
+}
+.topnav{
+    background-color: #646464;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.topnav a{
+    display: block;
+    color: rgb(235, 106, 0);
+    text-align: center;
+    padding: 14px 20px; /*tamanho confortável */
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease, color 0.3; /* Efeito suave */
+}
+
+.topnav a:hover {
+    background-color: rgb(170, 17, 17);
+    color: black;
+}
+.topnav a.active {
+    background-color: rgb(255, 0, 0);
+    color: rgb(114, 58, 58);
+}
+.topnav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+}
+.topnav .icon {
+display: none;
+color: rgb(255, 255, 255);
+font-size: 24px;
+cursor: pointer;
+}
+a {
+   font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 117, 65);
+}
